@@ -1,0 +1,418 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    background-color: yellows;
+    margin-top: 2.5%;
+}
+
+#ID_table {
+    background-color: #309691;
+    width: 90%;
+    height: 650px;
+    margin: 2.5% auto;
+    position: relative;
+    border-radius: 5px;
+}
+
+#table_left {
+    background: cyans;
+    height: 100%;
+    width: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: right;
+    position: absolute;
+    left: 0;
+}
+
+#table_right {
+    background: greens;
+    height: 100%;
+    width: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
+    position: absolute;
+    right: 0;
+}
+
+#ID_frame_front {
+    height: 540px;
+    width: 340px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 25px;
+}
+
+#background_image {
+    width: 100%;
+    height: 35%;
+    background-image: url(bcp_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#container_1 {
+    height: 100%;
+    width: 45%;
+    background-color: greens;
+    display: inline-block;
+}
+
+#bcp_logo {
+    height: 70%;
+    width: 90%;
+    margin-top: 7%;
+    margin-left: 10%;
+}
+
+#container_2 {
+    height: 20px;
+    width: 100%;
+    background-color: reds;
+    margin-top: 4px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#year {
+    font-weight: bold;
+}
+
+#container_3 {
+    display: inline-block;
+    background-color: yellows;
+    height: 100%;
+    width: 53%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    font-size: 9px;
+}
+
+#box_1 {
+    background-color: purples;
+    display: inline-block;
+    margin-top: 8%;
+}
+
+#box_2 {
+    margin-left: 71px;
+    background-color: pinks;
+    display: inline-block;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+
+#box_3 {
+    margin-left: 37px;
+    background-color: cyans;
+    display: inline-block;
+}
+
+#background {
+    background-color: #061226;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#picture_box {
+    background-color: oranges;
+    height: 220px;
+    width: 100%;
+    display: relative;
+}
+
+#picture {
+    height: 220px;
+    width: 220px;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 999;
+    top: 180px;
+    left: 18%;
+}
+
+#info_box {
+    background-color: white;
+    height: 18%;
+    width: 100%;
+    position: relative;
+}
+
+#sNum_1 {
+    font-size: 10px;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: lightgreys;
+    position: absolute;
+    top: 0;
+}
+
+#sNum_2 {
+    font-size: 22px;
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    font-weight: bold;
+}
+
+#name_1 {
+    font-size: 26px;
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35px;
+    font-weight: bold;
+}
+
+#name_2 {
+    font-size: 26px;
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+    font-weight: bold;
+}
+
+#course {
+    background-color: greys;
+    height: 35px;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ID_frame_back {
+    height: 540px;
+    width: 340px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 25px;
+    background-color: white;
+}
+
+#sign_box {
+    background-color: greys;
+    width: 100%;
+    height: 20%;
+}
+
+#line_box {
+    background-color: lightgreens;
+    width: 100%;
+    height: 1.5px;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#line {
+    background-color: black;
+    width: 75%;
+    height: 2px;
+}
+
+#sign_spot{
+    background-color: reds;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#emergency_box {
+    margin-top: 3%;
+    background-color: blues;
+    height: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#emergency_name {
+    background-color: pinks;
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#address_1 {
+    background-color: yellows;
+    font-size: 10px;
+    height: 16px;
+    width: 100%;
+    margin-top: 3px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+}
+
+#address_2 {
+    background-color: oranges;
+    font-size: 12px;
+    height: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
+#address_3 {
+    background-color: oranges;
+    font-size: 12px;
+    height: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
+#contact_1 {
+    background-color: greens;
+    font-size: 10px;
+    height: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+#contact_2 {
+    background-color: yellows;
+    font-size: 12px;
+    height: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
+#line_1 {
+    background-color: black;
+    height: 3px;
+    width: 100%;
+    margin-top: 4px;
+}
+
+#line_2 {
+    background-color: black;
+    height: 10px;
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#line_3 {
+    background-color: black;
+    height: 17px;
+    width: 100%;
+}
+
+#box1 {
+    background-color: greys;
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 1px;
+}
+
+.boxes {
+    background-color: greys;
+    height: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 1px;
+}
+
+#last1 {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 12px;
+    margin-bottom: 10px;
+}
+
+#last2 {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    height: 21px;
+}
+
+#note {
+    font-size: 14px;
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
